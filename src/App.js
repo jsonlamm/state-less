@@ -1,17 +1,21 @@
 import React, { Component } from 'react';
 
 // import Spy1 from './components/Spy1';
-import Spy2 from './components/Spy2';
+// import Spy2 from './components/Spy2';
 import Organization from './components/Organization';
 
 import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
-  // let state = {
-  //   name: 'Anip Atalooc',
-  //   age: 931,
-  //   origin: '3rd moon'
+  // constructor(props) {
+  //   super(props)
+
+  //   this.state = {
+  //     name: 'Anip Atalooc',
+  //     age: 931,
+  //     origin: '3rd moon'
+  //   }
   // }
   render() {
     return (
@@ -24,7 +28,7 @@ class App extends Component {
           An example of React Context!
         </p>
 
-        <Organization />
+        <Organization/>
 
       </div>
     );
