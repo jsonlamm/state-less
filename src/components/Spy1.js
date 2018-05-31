@@ -6,8 +6,8 @@ class Spy1 extends Component {
   render() {
     return (
       <div color="red">
-        <p>The assasin's name is {this.props.secret}</p>
-        <Spy2 secret={this.props.secret} />
+        <p>The assasin's name is {this.props.secretName}</p>
+        <Spy2 secretAge={this.props.secretAge} />
       </div>
     )
   }

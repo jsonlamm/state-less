@@ -3,7 +3,7 @@ import React from 'react';
 const Spy2 = (props) => {
   return (
     <div color="blue">
-      <p>The assasin's age is {props.secret}</p>
+      <p>The assasin's age is {props.secretAge}</p>
     </div>
   )
 }
