@@ -15,14 +15,16 @@ class MyProvider extends Component {
   }
   render() {
     return (
-      <MyContext.Provider value="important stuff">
+      <MyContext.Provider value={{
+        state: this.state
+      }}>
         {this.props.children}
       </MyContext.Provider>
     )
   }
 }
 
-class Organization extends Component {
+export class Organization extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -45,4 +47,4 @@ class Organization extends Component {
   }
 }
 
-export default Organization;
+export { MyContext }

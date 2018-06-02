@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 // import Spy1 from './components/Spy1';
 // import Spy2 from './components/Spy2';
-import Organization from './components/Organization';
+import {Organization} from './components/Organization';
 
 import logo from './logo.svg';
 import './App.css';
